@@ -14,6 +14,14 @@
 		84E6D8141B6CC248001B4136 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8131B6CC248001B4136 /* Images.xcassets */; };
 		84E6D8171B6CC248001B4136 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8151B6CC248001B4136 /* LaunchScreen.xib */; };
 		84E6D8231B6CC249001B4136 /* SwingShipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D8221B6CC249001B4136 /* SwingShipTests.m */; };
+		84E6D8341B6CC473001B4136 /* sea1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D82F1B6CC472001B4136 /* sea1.png */; };
+		84E6D8351B6CC473001B4136 /* sea2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8301B6CC472001B4136 /* sea2.png */; };
+		84E6D8361B6CC473001B4136 /* sea3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8311B6CC472001B4136 /* sea3.png */; };
+		84E6D8371B6CC473001B4136 /* sea4.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8321B6CC472001B4136 /* sea4.png */; };
+		84E6D83A1B6CC59E001B4136 /* ship128.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8391B6CC59E001B4136 /* ship128.png */; };
+		84E6D83C1B6CCB74001B4136 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6D83B1B6CCB74001B4136 /* AVFoundation.framework */; };
+		84E6D83E1B6CD231001B4136 /* MySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D83D1B6CD231001B4136 /* MySong.mp3 */; };
+		84E6D8401B6CD29F001B4136 /* MySong1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D83F1B6CD29F001B4136 /* MySong1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,14 @@
 		84E6D81C1B6CC249001B4136 /* SwingShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwingShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E6D8211B6CC249001B4136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E6D8221B6CC249001B4136 /* SwingShipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwingShipTests.m; sourceTree = "<group>"; };
+		84E6D82F1B6CC472001B4136 /* sea1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea1.png; sourceTree = "<group>"; };
+		84E6D8301B6CC472001B4136 /* sea2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea2.png; sourceTree = "<group>"; };
+		84E6D8311B6CC472001B4136 /* sea3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea3.png; sourceTree = "<group>"; };
+		84E6D8321B6CC472001B4136 /* sea4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea4.png; sourceTree = "<group>"; };
+		84E6D8391B6CC59E001B4136 /* ship128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship128.png; sourceTree = "<group>"; };
+		84E6D83B1B6CCB74001B4136 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84E6D83D1B6CD231001B4136 /* MySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MySong.mp3; sourceTree = "<group>"; };
+		84E6D83F1B6CD29F001B4136 /* MySong1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MySong1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E6D83C1B6CCB74001B4136 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +83,7 @@
 				84E6D8051B6CC248001B4136 /* SwingShip */,
 				84E6D81F1B6CC249001B4136 /* SwingShipTests */,
 				84E6D8041B6CC248001B4136 /* Products */,
+				84E6D83B1B6CCB74001B4136 /* AVFoundation.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +99,9 @@
 		84E6D8051B6CC248001B4136 /* SwingShip */ = {
 			isa = PBXGroup;
 			children = (
+				84E6D83F1B6CD29F001B4136 /* MySong1.mp3 */,
+				84E6D83D1B6CD231001B4136 /* MySong.mp3 */,
+				84E6D82C1B6CC3B5001B4136 /* Images */,
 				84E6D80A1B6CC248001B4136 /* AppDelegate.h */,
 				84E6D80B1B6CC248001B4136 /* AppDelegate.m */,
 				84E6D80D1B6CC248001B4136 /* ViewController.h */,
@@ -117,6 +138,18 @@
 				84E6D8211B6CC249001B4136 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E6D82C1B6CC3B5001B4136 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D8391B6CC59E001B4136 /* ship128.png */,
+				84E6D82F1B6CC472001B4136 /* sea1.png */,
+				84E6D8301B6CC472001B4136 /* sea2.png */,
+				84E6D8311B6CC472001B4136 /* sea3.png */,
+				84E6D8321B6CC472001B4136 /* sea4.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +233,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E6D8121B6CC248001B4136 /* Main.storyboard in Resources */,
+				84E6D8351B6CC473001B4136 /* sea2.png in Resources */,
+				84E6D8341B6CC473001B4136 /* sea1.png in Resources */,
+				84E6D8401B6CD29F001B4136 /* MySong1.mp3 in Resources */,
 				84E6D8171B6CC248001B4136 /* LaunchScreen.xib in Resources */,
 				84E6D8141B6CC248001B4136 /* Images.xcassets in Resources */,
+				84E6D83A1B6CC59E001B4136 /* ship128.png in Resources */,
+				84E6D83E1B6CD231001B4136 /* MySong.mp3 in Resources */,
+				84E6D8361B6CC473001B4136 /* sea3.png in Resources */,
+				84E6D8371B6CC473001B4136 /* sea4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
